@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>profile</title>
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  background: #e4e4e4ce;
+  background-image:url('topography.svg');
+}
+ 
+
+.header {
+  padding: 30px;
+  text-align: center;
+  height: 550px;
+}
+ 
+.header h1 {
+  font-size: 50px;
+  height: 200px;
+}
+ 
+
+.topnav {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 10px;
+  opacity:0.7;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(219, 219, 219);
+  color: black;
+}
+ 
+
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  padding: 30px;
+}
+ 
+
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-top: 30px;
+}
+ 
+
+.img {
+  width: 150px;
+  outline-style:solid;
+  outline-color:#6e6e6e;
+  border-radius: 100px;
+  outline-width:10px;
+}
+ 
+
+.card {
+  background-color: rgb(219, 219, 219);
+  padding: 50px;
+  width: 900px;
+}
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<script src="http://crowd4u.org/script/task_loader.js?requester=2220&length=10"></script>
+<div class="header">
+  <h1>Profile</h1>
+
+  <img class="img" src="me.jpg">
+  <p>of XIAO YUNYI</p>
+</div>
+
+<div class="topnav">
+  <a href="#abm">About Me</a>
+  <a href="#dts">Details</a>
+  <a href="#chk">Check</a>
+  <a href="#" style="float:right">Top
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-circle">
+        <circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline>
+        <line x1="12" y1="16" x2="12" y2="8"></line></svg>
+  </a>
+</div>
+
+<div class="row">
+
+  <div class="leftcolumn">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-right-down"><polyline points="10 15 15 20 20 15"></polyline><path d="M4 4h7a4 4 0 0 1 4 4v12"></path></svg>
+      <a name="abm"></a><h2>About Me</h2>
+      <div style="height:400px;">blahblahblah</div>
+    </div>
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-right-down"><polyline points="10 15 15 20 20 15"></polyline><path d="M4 4h7a4 4 0 0 1 4 4v12"></path></svg>
+      <a name="dts"></a><h2>Details</h2>
+      <div style="height:200px;">blahblahblah</div>
+    </div>
+  </div>
+
+
+  <div class="rightcolumn">
+      <img style="height:650px;" src="panda.jpg">
+      <a name="chk"></a><h3><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-crosshair"><circle cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12" x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12" y2="18"></line></svg>
+        Check</h3>
+      <p><a class="microtask repeat" href="http://crowd4u.org">
+        <img src="http://crowd4u.org/img/crowd4u_banner364x93.png"></a></p>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> 305-0821 茨城県つくば市春日1-2 筑波大学 春日エリア 情報メディアユニオン棟3F u305室</p>
+  <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> yunyi.xiao.2022b@mlab.info</p>
+  <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-incoming"><polyline points="16 2 16 8 22 8"></polyline><line x1="23" y1="1" x2="16" y2="8"></line><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 029-859-1556</p>
+</div>
+
+</body>
+</html>
